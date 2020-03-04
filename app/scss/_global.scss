@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    font-family: "Nunito";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Nunito';
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    background: white;
+    background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #FF3534;
+}
+
+.image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

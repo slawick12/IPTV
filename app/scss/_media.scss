@@ -1,0 +1,240 @@
+@media (min-width: 1920px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .slider__item__screens {
+        right: 250px;
+        top: 25%;
+    }
+
+    .slider__item__tuner {
+        left: 240px;
+
+        img {
+            width: 110%;
+        }
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .slider__item-title-3 {
+        top: 92%;
+    }
+
+    .slider-item__inner {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        img {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .slider__item__tuner {
+        img {
+            width: 90%;
+            padding-left: 15px;
+        }
+    }
+
+    .slider__item-title-3 {
+        top: 91%;
+    }
+
+    .slider__item__screens {
+        position: absolute;
+        right: 0px;
+        top: 44%;
+
+        img {
+            padding-left: 50px;
+            width: 82%;
+        }
+    }
+
+    .slider-item__inner {
+        img {
+            padding-left: 132px;
+            padding-top: 21px;
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .slider-item__inner img {
+
+        width: 89%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .slider__item__tuner {
+        top: 63%;
+        right: 6%;
+        left: 23%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .slider__item-title-3 {
+        top: 91%;
+    }
+
+    .slider__item__screens {
+        position: absolute;
+        top: 45%;
+        right: 1%;
+        left: 50%;
+
+        img {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    .slider-item__inner {
+        top: 55%;
+    }
+
+    .menu__list {
+        width: 40%;
+    }
+
+    .header__menu {
+        background: rgba(22, 20, 34, 0.98);
+        z-index: 22;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease-in-out 1s;
+
+        &.active {
+            transform: translateY(0%);
+        }
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 700px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .menu-btn {
+        display: block;
+        top: 22px;
+        width: 9%;
+        right: 16px;
+    }
+
+    .slider__item-descr {
+        &::before {
+            width: 77%;
+        }
+
+        &-subtitle {
+            width: 70%;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    // .subtitle {
+
+    // }
+
+    .title {
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+        font-size: 22px;
+
+    }
+
+    .slider__item-title-3 {
+        width: 62%;
+        top: 87%;
+    }
+
+    .slider__item-title-2 {
+        width: 28%;
+        right: 20px;
+
+    }
+
+    .slider__item-title-1 {
+        width: 28%;
+        right: 20px;
+
+    }
+
+    .slider__item-logo {
+        width: 30%;
+    }
+
+    .header__menu {
+        background: rgba(22, 20, 34, 0.98);
+        z-index: 22;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease-in-out 1s;
+
+        &.active {
+            transform: translateY(0%);
+        }
+    }
+
+    .header-bar {
+        height: 65px;
+    }
+
+    .menu__list {
+        width: 200px;
+        margin-top: 0px;
+
+    }
+
+    .header__logo {
+        width: 56%;
+    }
+
+    .slider-item__inner {
+        display: none;
+    }
+
+    .slider__item__tuner {
+        left: 19%;
+        right: 0;
+
+        img {
+
+            padding-left: 0;
+        }
+    }
+}
