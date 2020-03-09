@@ -122,6 +122,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        right: 0;
         width: 100%;
         transform: translateY(-100%);
         bottom: 0;
@@ -159,10 +160,6 @@
             line-height: 30px;
         }
     }
-
-    // .subtitle {
-
-    // }
 
     .title {
         text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);

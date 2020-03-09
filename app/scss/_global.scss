@@ -30,10 +30,10 @@ li {
 }
 
 .title {
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
     font-style: italic;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 32px;
     letter-spacing: 0.05em;
     background: white;
@@ -42,9 +42,36 @@ li {
     color: #FF3534;
 }
 
+.descr {
+    font-family: 'fontForDescr', sans-serif;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
+    color: #ffff;
+}
+
 .image {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.wave-title {
+    text-shadow: 20px 10px 10px rgba(0, 0, 0, 0.7);
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 57px;
+    color: #F4F2E9;
+
+    span {
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 95px;
+        align-items: center;
+        color: #DD003F;
+    }
 }
