@@ -4,9 +4,9 @@ $(function () {
         fade: true,
         prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrow-left.png" alt="">',
         nextArrow: '<img class="slider-arrows slider-arrows__rigth" src="img/arrow-right.png" alt="">',
-        speed: 900,
+        speed: 2000,
         cssEase: 'linear',
-        autoplay: true,
+        //autoplay: true,
         autoplaySpeed: 5000,
     });
 
@@ -16,15 +16,29 @@ $(function () {
 
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
-        if (scroll >= 200) {
+        if (scroll >= 150) {
             $(".header-bar").addClass("fill-in");
-            $(".header-bar").removeClass("fill-out");
-        } else {
-            if ($(".header-bar").hasClass("fill-in")) {
-                $(".header-bar").addClass("fill-out");
-                $(".header-bar").removeClass("fill-in");
-            }
+        } else
 
-        }
+            $(".header-bar").removeClass("fill-in");
+
+
+
     });
+
+    // On before slide change
+    $('.header__slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        $(currentSlide)
+        $('.animate').addClass('animated bounceInLeft slower');
+        $('.animate2').addClass('animated fadeInRight slow');
+
+
+    });
+    // On after slide change
+    $('.header__slider').on('afterChange', function (event, currentSlide, nextSlide) {
+        $(currentSlide)
+        $('.animate').removeClass('animated bounceInLeft slower');
+        $('.animate2').removeClass('animated fadeInRight slow');
+    });
+
 });

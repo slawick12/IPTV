@@ -1,4 +1,55 @@
-@media (min-width: 1920px) {
+@media (max-width: 2560px) {
+    .slider__item-descr-5-img img {
+        position: absolute;
+        bottom: 5%;
+        left: 150px;
+        width: 70%;
+    }
+
+    .slider__item-descr-5-content {
+        top: 12%;
+        max-width: 700px;
+        top: 34%;
+        right: 5%;
+    }
+
+    .content {
+        &-title {
+            font-size: 55px;
+            letter-spacing: 0.07em;
+        }
+
+        &-subtitle {
+            line-height: 52px;
+            font-size: 40px;
+            letter-spacing: 0.07em;
+        }
+    }
+}
+
+@media  (min-width: 1920px) {
+    .slider__item-descr-subtitle {
+        font-size: 40px;
+    }
+
+    .slider__item-descr-3-content {
+        max-width: 705px;
+    }
+
+    .slider__item-descr-4-content {
+        max-width: 650px;
+    }
+
+    .slider__item-descr-2 {
+        padding: 50px 40px;
+        bottom: 150px;
+        max-width: 717px;
+    }
+
+    .descr {
+        font-size: 50px;
+    }
+
     .menu-btn {
         display: none;
     }
@@ -16,9 +67,58 @@
         }
     }
 
+    .slider__item-descr-5-img img {
+        position: absolute;
+        bottom: 5%;
+        left: 150px;
+        width: 70%;
+    }
+
+    .slider__item-descr-5-content {
+        top: 12%;
+        max-width: 700px;
+        top: 34%;
+        right: 5%;
+    }
+
+    .content {
+        &-title {
+            font-size: 55px;
+            letter-spacing: 0.07em;
+        }
+
+        &-subtitle {
+            line-height: 52px;
+            font-size: 40px;
+            letter-spacing: 0.07em;
+        }
+    }
+}
+
+@media (min-width: 1680px) {
+    .slider__item-descr-5-content {
+        top: 317px;
+        right: 99px;
+    }
+
+    .slider__item-descr-5-img img {
+        position: absolute;
+        bottom: 15%;
+        left: 9%;
+    }
 }
 
 @media (min-width: 1440px) {
+    .slider__item-descr-5-img img {
+        bottom: 9%;
+        left: 3%;
+    }
+
+    .slider__item-descr-5-content {
+        top: 273px;
+        right: 77px;
+    }
+
     .menu-btn {
         display: none;
     }

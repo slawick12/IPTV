@@ -1,14 +1,10 @@
 html {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
-}
+  }
 
 .header {
     font-family: "Nunito";
@@ -47,7 +43,6 @@ li {
     text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
     font-style: italic;
     font-weight: 800;
-    font-size: 35px;
     color: #ffff;
 }
 
