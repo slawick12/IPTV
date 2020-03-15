@@ -6,7 +6,7 @@ $(function () {
         nextArrow: '<img class="slider-arrows slider-arrows__rigth" src="img/arrow-right.png" alt="">',
         speed: 2000,
         cssEase: 'linear',
-        //autoplay: true,
+        autoplay: true,
         autoplaySpeed: 5000,
     });
 

@@ -2,15 +2,20 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
+}
 
 .header {
     font-family: "Nunito";
     font-style: italic;
     font-weight: 800;
     font-size: 30px;
+}
+.container{
+    overflow: hidden;
 }
 
 a {
@@ -39,6 +44,14 @@ li {
 }
 
 .descr {
+    font-family: 'fontForDescr', sans-serif;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+    font-style: italic;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.option__descr {
     font-family: 'fontForDescr', sans-serif;
     text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
     font-style: italic;
