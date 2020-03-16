@@ -1,73 +1,269 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito:800i,600i,400i,&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.min.css" />
-  </head>
+<html lang="ru">
 
-  <body>
-    <header class="header">
-      <div class="menu-btn">
-        <div class="menu-btn__line"></div>
-        <div class="menu-btn__line"></div>
-        <div class="menu-btn__line"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:400i,600i,700i,800,800i, 800bi&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu-btn">
+      <div class="menu-btn__line"></div>
+      <div class="menu-btn__line"></div>
+      <div class="menu-btn__line"></div>
+    </div>
+
+    <div class="header-bar">
+      <div class="header__logo">
+        <a href="">
+          <img class="image" src="img/logo.png" alt="" />
+        </a>
       </div>
-      <div class="header-bar">
-        <div class="header__logo">
-          <a href="">
-            <img class="image" src="img/logo.png" alt="" />
-          </a>
+      <nav class="header__menu">
+        <ul class="menu__list">
+          <li><a class="title" href="">Видео</a></li>
+          <li><a class="title dropdown" href="">Контакты</a>
+            <ul class="dropdown__menu">
+              <li><a href=""></a>werew</li>
+              <li><a href=""></a>dfgdfg</li>
+              <li><a href=""></a>dfgdf</li>
+              <li><a href=""></a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div class="header__slider">
+      <div class="header__slider-item slider-item">
+        <div class="slider__item-title-1 animate2 animated fadeInRight slow ">
+          <div class=" title">архив 7 дней</div>
         </div>
-        <nav class="header__menu">
-          <ul class="menu__list">
-            <li><a class="title" href="">Видео</a></li>
-            <li><a class="title" href="">Контакты</a></li>
-          </ul>
-        </nav>
+        <div class="slider__item-title-2 animate2 animated fadeInRight slow">
+          <div class="title">Full HD + 4K</div>
+        </div>
+        <div class="slider__item-title-3 animate2 animated fadeInRight slow">
+          <div class="title">более 500 каналов</div>
+        </div>
+
+        <div class="slider__item-logo animate2 animated fadeInRight slow">
+          <img class="image" src="img/fifa.png" alt="" />
+        </div>
+        <div class="slider__item-descr animate2 animated fadeInRight slow">
+          <div class="slider__item-descr-subtitle  animate2 animated fadeInRight slow">
+            Смотри на любом устройстве в любом месте в лучшем качестве
+          </div>
+        </div>
+        <div class="slider-item__inner">
+          <img class="image" src="img/Ellipse 5.png" alt="" />
+        </div>
+        <div class="slider__item__screens animate animated bounceInLeft slower ">
+          <img class="image" src="img/screens.png" alt="" />
+        </div>
+        <div class="slider__item__tuner animate animated bounceInLeft slower ">
+          <img class="image" src="img/tuner-1.png" alt="" />
+        </div>
       </div>
-
-      <div class="header__slider">
-        <div class="header__slider-item slider-item">
-          <div class="slider__item-title-1">
-            <div class="title">архив 7 дней</div>
+      <div class="header__slider-item-2 slider-item-2">
+        <div class="slider__item-descr-2 animate ">
+          <div class="slider__item-descr-2-subtitle descr animate ">
+            Более 100 фильмовых каналов на любой вкуc
           </div>
-          <div class="slider__item-title-2">
-            <div class="title">Full HD + 4K</div>
+        </div>
+      </div>
+      <div class="header__slider-item-3 slider-item-3">
+        <div class="slider__item-descr-3 animate">
+          <div class="slider__item-descr-3-logo">
+            <img src="img/formula-logo.png" alt="" />
           </div>
-          <div class="slider__item-title-3">
-            <div class="title">более 500 каналов</div>
-          </div>
-
-          <div class="slider__item-logo">
-            <img class="image" src="img/fifa.png" alt="" />
-          </div>
-          <div class="slider__item-descr">
-            <div class="slider__item-descr-subtitle">
-              Смотри на любом устройстве в любом месте в лучшем качестве
+          <div class="slider__item-descr-3-content animate">
+            <div class="content-title ">
+              Лучшие спортивные каналы!
+            </div>
+            <div class="content-subtitle descr animate ">
+              В оригинальном качестве с динамическим битрейтом для четких
+              динамичных сцен
             </div>
           </div>
-          <div class="slider-item__inner">
-            <img class="image" src="img/Ellipse 5.png" alt="" />
-          </div>
-          <div class="slider__item__screens">
-            <img class="image" src="img/screens.png" alt="" />
-          </div>
-          <div class="slider__item__tuner">
-            <img class="image" src="img/tuner-1.png" alt="" />
+        </div>
+      </div>
+      <div class="header__slider-item-4 slider-item-4">
+        <div class="slider__item-descr-4 animate2">
+          <div class="slider__item-descr-4-content ">
+            <div class="content-title animate2">
+              Детские каналы
+            </div>
+            <div class="content-subtitle descr animate2 ">
+              + родительский контроль для защиты от взрослого контента
+            </div>
           </div>
         </div>
       </div>
-    </header>
+      <div class="header__slider-item-5 slider-item-5">
+        <div class="slider__item-descr-5 ">
+          <div class="slider__item-descr-5-img ">
+            <img class="animate2" src="img/screen-tv.png" alt="">
+          </div>
+          <div class="slider__item-descr-5-content animate2">
+            <div class="content-title">
+              Медиатека
+            </div>
+            <div class="content-subtitle  animate2">
+              Большой выбор кино, сериалов и мультфильмов в отличном качестве, доступных
+              в любое удобное время
+              и на любых устройствах!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="option">
+      <div class="option__top" data-aos="zoom-out">
+        <div class="option__top-item">
+          <div class="item-icon">
+            <img src="img/speedometr.png" alt="">
+          </div>
+          <div class="item-subtitle option__descr"> Сверхбыстрая связь </div>
+        </div>
+        <div class="option__top-item">
+          <div class="item-icon">
+            <img src="img/plan.png" alt="">
+          </div>
+          <div class="item-subtitle option__descr">Гибкие тарифные планы</div>
+        </div>
+        <div class="option__top-item">
+          <div class="item-icon">
+            <img src="img/wi-fi.png" alt="">
+          </div>
+          <div class="item-subtitle option__descr">Простая установка</div>
+        </div>
+      </div>
+      <div class="option__content" data-aos="zoom-out" data-aos-offset="400">
+        <div class="option__content-img">
+          <img src="img/sport-tv.png" alt="">
+        </div>
+        <div class="option__content-text">отличная стабильность
+          и качество изображения! <span>SD, HD, FULL HD + 4K</span> без проблем! Функции <span>перемотки, записи,
+            паузы</span> и просмотра передач
+          <span>в архиве</span> за последние <span>7 дней!</span> </div>
+      </div>
+      <div class="option__top" data-aos="zoom-out">
+        <div class="option__top-item">
+          <div class="item-icon">
+            <img src="img/4k.png" alt="">
+          </div>
+          <div class="item-subtitle option__descr"> Лучшее качество </div>
+        </div>
+        <div class="option__top-item">
+          <div class="item-icon">
+            <img src="img/consult.png" alt="">
+          </div>
+          <div class="item-subtitle option__descr">24/7 техническая поддержка</div>
+        </div>
+        <div class="option__top-item">
+          <div class="item-icon">
+            <img src="img/tv-icon.png" alt="">
+          </div>
+          <div class="item-subtitle option__descr">+ 500 каналов</div>
+        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="description">
+      <div class="description__item-1">
+        <div class="description__item-1-line"></div>
+        <div class="description__item-1-wave" data-aos="fade-right" data-aos-offset="400"
+          data-aos-easing="ease-in-sine">
+          <div class="description__item-1-wave-title wave-title"><span>1</span>
+            Выберите свой тарифный план
+          </div>
+          <div class="description__item-1-wave-subtitle">IPTV SD + архив за 7 суток
+            IPTV SD + HD + архив за 7 суток + HD медиатека
+            IPTV SD + HD + 4K + архив за 7 суток + HD медиатека, звук Dolby Digital 5.1 HDR 4K
+            оригинальное качество с динамическим
+            битрейтом
+          </div>
+          <div class="description__item-1-wave__bottom-img">
+            <img src="img/4k-bottom.png" alt="">
+            <img src="img/digital.png" alt="">
+          </div>
+          <div class="description__item-1-wave-man">
+            <img src="img/man_think.png" alt="">
+            <div class="description__item-1-wave-man-text">уточните цену
+              и список каналов выбранного вами тарифного плана, для
+              вашего региона, у специалиста</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="description__item-2" data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine">
+        <div class="description__item-2-wave">
+          <div class="description__item-2-wave-title wave-title"><span>2</span>
+            Свяжитесь с нами
+          </div>
+          <div class="description__item-2-wave-subtitle">IPTV SD + архив за 7 суток
+            круглосуточная поддержка клиентов в любом удобном формате ( текст, аудио, видео связь )
+          </div>
+          <div class="description__item-2-wave-button">
+            Контакт
+          </div>
+          <div class="description__item-2-wave-man">
+            <img src="img/man-call.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="description__item-3" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
+        <div class="description__item-3-wave">
+          <div class="description__item-3-wave-title wave-title"><span>3</span>
+            Быстрая установка
+          </div>
+          <div class="description__item-3-wave-subtitle">
+            настройка с помощью специалиста за 5 минут!
+          </div>
+          <div class="description__item-3-wave-icon">
+            <img src="img/all-done.png" alt="">
+          </div>
+          <div class="description__item-3-wave-man">
+            <img src="img/man-ok.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-line"></div>
+
+    <div class="footer-content">
+      <img src="img/logo.png" alt="">
+      <div class="footer-content-descr">ТОЛЬКО КАЧЕСТВЕННЫЙ СЕРВИС</div>
+    </div>
+    <div class="footer-bar">
+      <div class="footer-bar-rights"> © Все права защищены - 2005-2020</div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
