@@ -7,7 +7,7 @@ $(function () {
         speed: 2000,
         cssEase: 'linear',
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 4000,
     });
 
     $('.menu-btn').on('click', function () {

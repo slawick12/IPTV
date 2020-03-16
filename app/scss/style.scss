@@ -53,8 +53,8 @@
         background-image: linear-gradient(to right, rgba(66, 63, 80, 0.3), rgba(15, 43, 90, 0.73)),
             url(../img/bg5.png);
         background-repeat: repeat-x;
-        animation: slideleft 3000s infinite linear;
-        -webkit-animation: slideleft 3000s infinite linear;
+        animation: slideleft 8000s infinite linear;
+        -webkit-animation: slideleft 8000s infinite linear;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -100,6 +100,16 @@
             margin: 20px;
             transition: margin .6s linear;
         }
+    }
+}
+
+.dropdown__menu {
+    display: none;
+}
+
+.dropdown:hover {
+    & ul {
+        display: block;
     }
 }
 
@@ -457,6 +467,7 @@
     &-img {
         text-align: center;
     }
+
     & img {
 
         flex-basis: 500px;
